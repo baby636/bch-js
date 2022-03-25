@@ -1,0 +1,60 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.22.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - apidoc > lodash:
+        patched: '2022-03-25T23:24:57.854Z'
+    - eslint > lodash:
+        patched: '2022-03-25T23:24:57.854Z'
+    - nock > lodash:
+        patched: '2022-03-25T23:24:57.854Z'
+    - semantic-release > lodash:
+        patched: '2022-03-25T23:24:57.854Z'
+    - apidoc > apidoc-core > lodash:
+        patched: '2022-03-25T23:24:57.854Z'
+    - eslint > inquirer > lodash:
+        patched: '2022-03-25T23:24:57.854Z'
+    - eslint > table > lodash:
+        patched: '2022-03-25T23:24:57.854Z'
+    - mocha > yargs-unparser > lodash:
+        patched: '2022-03-25T23:24:57.854Z'
+    - semantic-release > @semantic-release/release-notes-generator > lodash:
+        patched: '2022-03-25T23:24:57.854Z'
+    - sinon > @sinonjs/samsam > lodash:
+        patched: '2022-03-25T23:24:57.854Z'
+    - apidoc > winston > async > lodash:
+        patched: '2022-03-25T23:24:57.854Z'
+    - bip32-utils > standard > eslint > lodash:
+        patched: '2022-03-25T23:24:57.854Z'
+    - bip32-utils > standard > eslint-plugin-import > lodash:
+        patched: '2022-03-25T23:24:57.854Z'
+    - nyc > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2022-03-25T23:24:57.854Z'
+    - semantic-release > @semantic-release/release-notes-generator > conventional-commits-parser > lodash:
+        patched: '2022-03-25T23:24:57.854Z'
+    - semantic-release > @semantic-release/release-notes-generator > conventional-changelog-writer > lodash:
+        patched: '2022-03-25T23:24:57.854Z'
+    - sinon > @sinonjs/formatio > @sinonjs/samsam > lodash:
+        patched: '2022-03-25T23:24:57.854Z'
+    - bip32-utils > nyc > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2022-03-25T23:24:57.854Z'
+    - bip32-utils > standard > eslint > inquirer > lodash:
+        patched: '2022-03-25T23:24:57.854Z'
+    - bip32-utils > standard > eslint > table > lodash:
+        patched: '2022-03-25T23:24:57.854Z'
+    - nyc > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-03-25T23:24:57.854Z'
+    - sinon > nise > @sinonjs/formatio > @sinonjs/samsam > lodash:
+        patched: '2022-03-25T23:24:57.854Z'
+    - bip32-utils > nyc > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-03-25T23:24:57.854Z'
+    - nyc > istanbul-lib-instrument > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-25T23:24:57.854Z'
+    - bip32-utils > nyc > istanbul-lib-instrument > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-25T23:24:57.854Z'
+    - nyc > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2022-03-25T23:24:57.854Z'
+    - bip32-utils > nyc > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2022-03-25T23:24:57.854Z'
