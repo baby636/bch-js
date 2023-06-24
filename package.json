@@ -54,7 +54,7 @@
     "clear": "0.1.0",
     "coininfo": "Bitcoin-com/coininfo",
     "commander": "^3.0.0",
-    "cp-file": "^7.0.0",
+    "cp-file": "^10.0.0",
     "ecurve": "^1.0.6",
     "figlet": "^1.2.0",
     "git-clone": "^0.1.0",
@@ -84,7 +84,7 @@
     "mocha": "^6.1.4",
     "nock": "^10.0.6",
     "node-mocks-http": "^1.7.0",
-    "nyc": "^14.1.0",
+    "nyc": "^15.0.0",
     "prettier": "^1.18.2",
     "semantic-release": "^15.13.19",
     "sinon": "^7.3.2"
