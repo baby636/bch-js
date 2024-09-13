@@ -87,7 +87,7 @@
     "nyc": "^14.1.0",
     "prettier": "^1.18.2",
     "semantic-release": "^15.13.19",
-    "sinon": "^7.3.2"
+    "sinon": "^19.0.0"
   },
   "apidoc": {
     "title": "bch-js",
